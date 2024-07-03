@@ -1,7 +1,8 @@
+import { StoryFn } from "@storybook/react";
 import Alert, { AlertProps, AlertVariant } from "./Alert";
 
 export default {
-  title: "Alert",
+  title: "Components/Alert",
   component: Alert,
   args: {
     message: "default",
@@ -13,7 +14,7 @@ export default {
   },
 };
 
-const Template = (args: AlertProps) => <Alert {...args} />;
+const Template: StoryFn<AlertProps> = (args) => <Alert {...args} />;
 
 export const SuccessAlert = Template.bind({});
 

@@ -1,0 +1,37 @@
+
+> storybook@0.1.0 build-storybook
+> storybook build --output-dir C:\Users\dkris\AppData\Local\Temp\chromatic--9528-8u3gyaVmr2LJ
+
+@storybook/cli v8.1.11
+
+info => Cleaning outputDir: C:\Users\dkris\AppData\Local\Temp\chromatic--9528-8u3gyaVmr2LJ
+info => Loading presets
+WARN The "@storybook/addon-mdx-gfm" addon is meant as a migration assistant for Storybook 8.0; and will likely be removed in a future version.
+WARN It's recommended you read this document:
+WARN https://storybook.js.org/docs/writing-docs/mdx#markdown-tables-arent-rendering-correctly
+WARN 
+WARN Once you've made the necessary changes, you can remove the addon from your package.json and storybook config.
+info => Building manager..
+info => Manager built (217 ms)
+info => Building preview..
+info Addon-docs: using MDX3
+info => Using implicit CSS loaders
+WARN No story files found for the specified pattern: src\**\*.mdx
+info => Using SWC as compiler
+info => Copying static files: public at C:\Users\dkris\AppData\Local\Temp\chromatic--9528-8u3gyaVmr2LJ
+info => Using default Webpack5 setup
+info Using tsconfig paths for react-docgen
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   849.01f33c0b.iframe.bundle.js (2.01 MiB)
+WARN   573.d92c6504.iframe.bundle.js (671 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (2.02 MiB)
+WARN       runtime~main.ce114d4e.iframe.bundle.js
+WARN       849.01f33c0b.iframe.bundle.js
+WARN       main.75b42f9c.iframe.bundle.js
+WARN 
+info => Preview built (17 s)
+info => Output directory: C:\Users\dkris\AppData\Local\Temp\chromatic--9528-8u3gyaVmr2LJ
